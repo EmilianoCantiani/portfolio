@@ -200,30 +200,50 @@ export default function Portfolio() {
       <section id="esperienza" className="container section">
         <h3 className="section-title">Percorso Professionale</h3>
         <div className="timeline">
-          
-          <div className="timeline-item">
-            <div className="timeline-badge"></div>
-            <span className="timeline-date">2024 — 2026</span>
-            <h4 className="timeline-title">Specialist ERP & Analista (Ruolo Ibrido)</h4>
-            <p className="timeline-text">
-              Attività focalizzata su Analisi Funzionale, configurazione e gestione di sistemi ERP aziendali, combinando lo sviluppo mirato al supporto e all'ottimizzazione dei processi interni.
-            </p>
-          </div>
 
+          {/* INTERFLORA */}
           <div className="timeline-item">
             <div className="timeline-badge gray"></div>
-            <span className="timeline-date gray">Perfezionamento di Carriera</span>
-            <h4 className="timeline-title">14 Anni di Esperienza Consolidata | Interflora</h4>
-            <p className="timeline-text">
-              Lunga e continuativa collaborazione aziendale che ha permesso di seguire da vicino, gestire e far evolvere l'intera infrastruttura e i sistemi interni, garantendo stabilità e innovazione costante.
-            </p>
+            <span className="timeline-date gray">Giugno 2012 — Gennaio 2026 | Interflora Italia spa</span>
+            <h4 className="timeline-title">Business Analyst | Application Manager | Software Developer</h4>
+            {/*<p className="timeline-text">
+              
+              
+              
+              </p>*/}
+            <div className="timeline-text">
+              <ul style={{ margin: '8px 0 0 0', paddingLeft: '16px', listStyleType: 'disc' }}>
+                <li style={{ marginBottom: '4px' }}>Analisi, progettazione e ottimizzazione di processi aziendali a supporto delle aree Finance, Marketing, Customer Care e Network, con ruolo di raccordo tra business e IT.</li>
+                <li style={{ marginBottom: '4px' }}>Supporto all'amministrazione nella configurazione e nell'utilizzo dell'applicativo <span style={{ color: '#38bdf8' }}>SAP Business One</span>.</li>
+                <li style={{ marginBottom: '4px' }}>Gestione e configurazione di soluzioni ERP <span style={{ color: '#38bdf8' }}>(Microsoft Dynamics 365 e SAP Business One)</span>, coordinamento di integrazioni applicative, migrazioni da sistemi legacy e digitalizzazione dei processi.</li>
+                <li style={{ marginBottom: '4px' }}>Progettazione e realizzazione della reportistica aziendale e supporto al team di Interflora Francia per l'integrazione dei dati di Interflora Italia nel servizio di Power BI
+aziendale, facilitando il reporting consolidato a livello di gruppo Interflora Europa.</li>
+                <li style={{ marginBottom: '0px' }}>Collaborazione con team di sviluppo internazionali per la realizzazione di soluzioni scalabili, supportando la continuità operativa, il miglioramento dei flussi informativi e l'automazione dei processi aziendali.</li>
+              </ul>
+            </div>
+          </div>          
+
+          {/* PERFORMA */}
+          <div className="timeline-item">
+            <div className="timeline-badge gray"></div>
+            <span className="timeline-date gray">Febbraio 2010 — Giugno 2012 | Performa srl</span>
+            <h4 className="timeline-title">Programmer Analyst | ERP Specialist</h4>
+            <div className="timeline-text">
+              <ul style={{ margin: '8px 0 0 0', paddingLeft: '16px', listStyleType: 'disc' }}>
+                <li style={{ marginBottom: '4px' }}>Gestione e manutenzione dell'applicativo web Floragest per la gestione contabile degli ordini Interflora.</li>
+                <li style={{ marginBottom: '4px' }}>Supporto all'amministrazione nella configurazione e nell'utilizzo dell'applicativo <span style={{ color: '#38bdf8' }}>SAP Business One</span>.</li>
+                <li style={{ marginBottom: '4px' }}>Integrazione di <span style={{ color: '#38bdf8' }}>SAP Business One</span> con i sistemi sviluppati internamente.</li>
+                <li style={{ marginBottom: '4px' }}>Progettazione e sviluppo in team del portale fioristi affiliati MyInterflora.</li>
+                <li style={{ marginBottom: '0px' }}>Progettazione e sviluppo in team di Isoweb, applicazione web di gestione fioristi e ordini.</li>
+              </ul>
+            </div>
           </div>
 
-            {/* Exo S.I. / Vega Solution */}
-            <div className="timeline-item">
+          {/* Exo */}
+          <div className="timeline-item">
             <div className="timeline-badge gray"></div>
-            <span className="timeline-date gray">Marzo 2000 — Febbraio 2010</span>
-            <h4 className="timeline-title">Software Developer | Exo S.I. (poi Vega Solution)</h4>
+            <span className="timeline-date gray">Marzo 2000 — Febbraio 2010 | Exo S.I. (poi Vega Solution)</span>
+            <h4 className="timeline-title">Software Developer</h4>
             <p className="timeline-text">
               Attività di sviluppo software in consulenza presso diversi clienti nel settore pubblico e privato, tra cui: 
               <span style={{ color: '#38bdf8', fontWeight: '500' }}> Ministero della Difesa, Ministero dell'Economia e delle Finanze, Banca d'Italia, Italriscossioni, ENI, ScarpaMondo e Nuova Patrimoniale</span>.
