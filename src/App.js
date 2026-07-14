@@ -196,7 +196,7 @@ export default function Portfolio() {
 
       <hr />   
 
-      {/* 6. ESPERIENZA (TIMELINE) */}
+      {/* 6. ESPERIENZE PROFESSIONALI */}
       <section id="esperienza" className="container section">
         <h3 className="section-title">Percorso Professionale</h3>
         <div className="timeline">
@@ -219,12 +219,17 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div className="timeline-item">
+            {/* Exo S.I. / Vega Solution */}
+            <div className="timeline-item">
             <div className="timeline-badge gray"></div>
-            <span className="timeline-date gray">2001 — Origini</span>
-            <h4 className="timeline-title">Ingresso nel settore IT</h4>
+            <span className="timeline-date gray">Marzo 2000 — Febbraio 2010</span>
+            <h4 className="timeline-title">Software Developer | Exo S.I. (poi Vega Solution)</h4>
             <p className="timeline-text">
-              Inizio del percorso professionale nel mondo informatico a seguito di un corso di formazione specialistica presso un'azienda IT, costruendo le solide basi tecniche che oggi supportano la mia capacità di analisi.
+              Attività di sviluppo software in consulenza presso diversi clienti nel settore pubblico e privato, tra cui: 
+              <span style={{ color: '#38bdf8', fontWeight: '500' }}> Ministero della Difesa, Ministero dell'Economia e delle Finanze, Banca d'Italia, Italriscossioni, ENI, ScarpaMondo e Nuova Patrimoniale</span>.
+            </p>
+            <p className="timeline-text">
+              Docenze pacchetto Office presso le sedi centrali del <span style={{ color: '#38bdf8', fontWeight: '500' }}> Monte dei Paschi di Siena </span> di Roma e Latina.
             </p>
           </div>
 
